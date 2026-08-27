@@ -1,7 +1,12 @@
 # Audion TourBox Presets Translator
 
 <!-- audion:release -->
-[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0b6db8?style=flat-square&logo=windows&logoColor=white)](https://audion.dev/downloads/tourbox-presets-translator) [![Release](https://img.shields.io/github/v/release/Tensionix/tourbox-presets-translator?style=flat-square&label=release&color=e08a63)](https://github.com/Tensionix/tourbox-presets-translator/releases/latest) [![Downloads](https://img.shields.io/github/downloads/Tensionix/tourbox-presets-translator/total?style=flat-square&label=downloads&color=5fd08a)](https://github.com/Tensionix/tourbox-presets-translator/releases) [![License](https://img.shields.io/github/license/Tensionix/tourbox-presets-translator?style=flat-square&color=5fd08a&logo=apache&logoColor=white&cacheSeconds=3600)](https://github.com/Tensionix/tourbox-presets-translator/blob/main/LICENSE)
+<p align="center">
+  <a href="https://audion.dev/downloads/tourbox-presets-translator"><img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0b6db8?style=flat-square&logo=windows&logoColor=white"></a>
+  <a href="https://github.com/Tensionix/tourbox-presets-translator/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/Tensionix/tourbox-presets-translator?style=flat-square&label=release&color=e08a63"></a>
+  <a href="https://github.com/Tensionix/tourbox-presets-translator/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Tensionix/tourbox-presets-translator/total?style=flat-square&label=downloads&color=5fd08a"></a>
+  <a href="https://github.com/Tensionix/tourbox-presets-translator/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/Tensionix/tourbox-presets-translator?style=flat-square&color=5fd08a&logo=apache&logoColor=white&cacheSeconds=3600"></a>
+</p>
 
 **Version 1.0.0** · 2026-08-25 · 3.0 MB
 
