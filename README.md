@@ -32,10 +32,10 @@ manifest; you run one file; the preset is ready to import.
 
 That works because everything the assistant needs travels with the project:
 
-- [`FORMAT.md`](FORMAT.md) — the container, the control table, the action
+- `FORMAT.md` — the container, the control table, the action
   encoding, the modifier bits, and all 47 control slots, each marked *confirmed*,
   *inferred* or *unresolved*;
-- [`TRANSLATOR.md`](TRANSLATOR.md) — what the translator promises and what it
+- `TRANSLATOR.md` — what the translator promises and what it
   refuses to do;
 - thirteen worked manifests in [`../manifests`](../manifests), each opening with a
   `_purpose` line explaining the intent behind the mapping.
@@ -67,7 +67,7 @@ into TourBox Console and you are done — nothing to build, nothing to install.
 | `70-lightroom-develop` | Knob picks the slider, Dial turns it in steps, Scroll wheels whatever the pointer is over |
 
 Two of them need a one-time setup in the host application, both documented:
-[Premiere](PREMIERE_SETUP.md) and — for the three plugin keys — Audition.
+Premiere and — for the three plugin keys — Audition.
 
 ### The one to look at first: Total Commander without a keyboard
 
@@ -145,15 +145,15 @@ directions:
 ```
 
 A shortcut is modifiers plus exactly one key. Modifiers are `ctrl`, `alt`,
-`shift`. A key is a single character (`a`, `7`, `[`, `=`), a named special key
+`shift`. A key is a single character (`a`, `7`, ``, `=`), a named special key
 (`left`, `pagedown`, `f12`, `numpad7`), a spelled-out control (`space`, `enter`,
 `escape`, `tab`, `backspace`, `delete`), or `p1:N` to address a raw code.
 
-Control names are in [`FORMAT.md` §8](FORMAT.md). `id:N` addresses a raw slot. An
+Control names are in [`FORMAT.md` §8. `id:N` addresses a raw slot. An
 unknown name is an error — the tool never picks a slot by guessing.
 
 The full contract — what the translator promises, what it refuses to do, and how
-to check a preset once it is imported — is in [`TRANSLATOR.md`](TRANSLATOR.md).
+to check a preset once it is imported — is in `TRANSLATOR.md`.
 
 ## Why this exists
 
@@ -162,7 +162,7 @@ a keyboard layout you already know. Presets are also awkward to diff, review or
 keep in version control. This project makes the mapping a text file and the `.tb`
 a build artifact.
 
-Along the way the format had to be decoded properly. [`FORMAT.md`](FORMAT.md) is
+Along the way the format had to be decoded properly. `FORMAT.md` is
 the result — the container, the control table, the action encoding, the modifier
 bits, the special-key table, and the full 47-slot control map, each entry marked
 *confirmed*, *inferred* or *unresolved*.
@@ -171,7 +171,7 @@ bits, the special-key table, and the full 47-slot control map, each entry marked
 
 Nothing here came from documentation, because there is none. TourBox publishes no
 format description, and Console does not explain itself. Every line in
-[`FORMAT.md`](FORMAT.md) was earned the same way: build a file, feed it to
+`FORMAT.md` was earned the same way: build a file, feed it to
 Console, read what Console says it means, export it back, compare the bytes.
 
 That loop ran a lot of times. What survives of it is in the repository:
@@ -211,7 +211,7 @@ unconfirmed."
 
 On an Elite with Console 5.11.3 the bits are Shift `0x02`, Alt `0x04`, Ctrl
 `0x08`, confirmed by two independent lines of evidence — see
-[`FORMAT.md` §5](FORMAT.md). So that early note reads Shift where it says Alt,
+`FORMAT.md` §5. So that early note reads Shift where it says Alt,
 which is exactly why it was flagged unconfirmed. Anyone building on the upstream
 table can take the values from here.
 
@@ -231,7 +231,7 @@ table can take the values from here.
 
 Not addressable yet: a `Side+Dial` combination. The standard section has no such
 row; Console can build one in its Custom Section, but which record id it takes is
-uncalibrated — see [`FORMAT.md` §8](FORMAT.md).
+uncalibrated — see `FORMAT.md` §8.
 
 Not decoded: mouse buttons and drag, TourMenu, macros, plugin commands. Drag is
 the one that still matters — it is what a rotary would need to pull a curve
@@ -272,14 +272,14 @@ Docs/         FORMAT.md, TRANSLATOR.md, the application map
 ## Reproducing the calibration
 
 If you have a different TourBox model or firmware, do not trust this table —
-re-derive it. The method is in [`FORMAT.md` §10](FORMAT.md) and takes about half
+re-derive it. The method is in `FORMAT.md` §10 and takes about half
 an hour: generate a probe, import it, read the labels, re-export, diff.
 
 ## Status
 
 The keyboard half of the format is done and exercised end to end. The preset pack
 itself is in progress — see
-[`Audion_TourBox_Elite_Apps_Map.md`](Audion_TourBox_Elite_Apps_Map.md) for the
+`Audion_TourBox_Elite_Apps_Map.md` for the
 intended application maps.
 
 Tested only on TourBox Elite, Windows, Console 5.11.3.
@@ -294,4 +294,4 @@ here from observation, not from any TourBox source.
 
 ---
 
-[Русская версия](README_RU.md)
+Русская версия
