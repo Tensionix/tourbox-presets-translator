@@ -8,12 +8,12 @@
   <a href="https://github.com/Tensionix/tourbox-presets-translator/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/Tensionix/tourbox-presets-translator?style=flat-square&color=5fd08a&logo=apache&logoColor=white&cacheSeconds=3600"></a>
 </p>
 
-**Version 1.0.1** · 2026-09-01 · 2.7 MB
+**Version 1.0.1** · 2026-09-04 · 2.7 MB
 
 - [Direct download](https://dl.audion.dev/tourbox-presets-translator/1.0.1/Audion_TourBox_Presets_Translator_v1.0.1_Full.zip) — unmetered, no rate limits
 - [Project page](https://audion.dev/downloads/tourbox-presets-translator) — every version and how to install
 
-`SHA-256: dd76ce3844fe5078ee70e538d7f045d8bd19d57bfa8ce8f7e37fddd78f8dafc8`
+`SHA-256: 02c7f36be9cab02b63a568827ca9d4701052440689aef0eb8284ab9652375780`
 
 ---
 
